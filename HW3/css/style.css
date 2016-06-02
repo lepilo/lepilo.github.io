@@ -24,6 +24,8 @@ body{
 .menu-item{
 	display: inline-block;
 	padding: 15px 56px 15px 23px;
+	border-left: 1px solid transparent;
+	border-right: 1px solid transparent;
 }
 .menu-link{
 	display: block;

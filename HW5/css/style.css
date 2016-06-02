@@ -1,0 +1,73 @@
+@font-face {
+    font-family: 'Helvetica';
+    src: url('../fonts/helveticaneuecyr-light-webfont.woff2') format('woff2'),
+         url('../fonts/helveticaneuecyr-light-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+body{
+	font-family: Helvetica;
+}
+/*HEADER*/
+.wrapper{
+	width: 1215px;
+	height: 1200px;
+	background: url(../img/bg.jpg);
+	margin: 0 auto;
+}
+.header{
+	overflow: hidden;
+	background: linear-gradient(to bottom, #07508f, #07508f);
+	height: 36px;
+	line-height: 33px;
+}
+.right{
+	float: right;
+}
+.left{
+	float: right;
+	margin-right: 74px;
+}
+.left-item{
+	display: inline-block;
+	margin: 0 10px;
+}
+.left-item:last-child{
+	border-right: 1px solid #fff;
+	padding-right: 26px;
+	line-height: 29px;
+}
+.left-item:hover{
+	background: #4eabda;
+}
+.left-link{
+	color: #60b5ed;
+	text-decoration: none;
+	font-size: 14px;
+}
+.right-item{
+	display: inline-block;
+}
+.right-item{
+	color: #fff;
+}
+.right-link{
+	color: #fff;
+}
+/*RIGHT-MENU*/
+.flag:before{
+	content: url(../img/flag.png);
+	position: absolute;
+	top: 8px;
+	
+
+}
+
+
+
+
+
+
+
+
+
