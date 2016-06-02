@@ -8,63 +8,151 @@
 body{
 	font-family: Helvetica;
 }
-/*HEADER*/
 .wrapper{
-	width: 1215px;
-	height: 1200px;
 	background: url(../img/bg.jpg);
+	width: 1215px;
+	height: 1028px;
 	margin: 0 auto;
 }
+/*HEADER*/
 .header{
+	background: linear-gradient(to bottom, #085595, #074f8d);
 	overflow: hidden;
-	background: linear-gradient(to bottom, #07508f, #07508f);
+	padding-right: 20px;
+}
+.login{
+	float: right;
+	position: relative;
+}
+.menu{
+	float: right;
+}
+li{
+	display: inline-block;
 	height: 36px;
 	line-height: 33px;
-}
-.right{
-	float: right;
-}
-.left{
-	float: right;
-	margin-right: 74px;
-}
-.left-item{
-	display: inline-block;
-	margin: 0 10px;
-}
-.left-item:last-child{
-	border-right: 1px solid #fff;
-	padding-right: 26px;
-	line-height: 29px;
-}
-.left-item:hover{
-	background: #4eabda;
-}
-.left-link{
-	color: #60b5ed;
-	text-decoration: none;
 	font-size: 14px;
 }
-.right-item{
-	display: inline-block;
-}
-.right-item{
-	color: #fff;
-}
-.right-link{
-	color: #fff;
-}
-/*RIGHT-MENU*/
+/*.login-item:nth-child(1){ ПОЧЕМУ НЕ РАБОТАЕТ?
+	color: #000;
+}*/
 .flag:before{
 	content: url(../img/flag.png);
 	position: absolute;
-	top: 8px;
-	
-
+	top: 6px;
+	left: -33px;
 }
-
-
-
+.flag{
+	padding-right: 18px;
+	background: linear-gradient(to bottom, #085595, #074f8d);
+}
+.login-menu {
+	background: linear-gradient(to bottom, #50afdc, #2e7ac4);
+}
+.login-item{
+	color: #fff;
+}
+.login-link{
+	color: #fff;
+}
+.login-item:nth-child(2){
+	padding-left: 17px;
+}
+.login-item:last-child{
+	padding-right: 10px;
+}
+.menu{
+	padding-right: 39px;
+}
+.menu-item{
+	padding: 0 12px;
+}
+.menu-link{
+	display: block;
+	color: #60b5ed;
+	text-decoration: none;
+}
+.menu-item:last-child{
+	border-right: 1px solid #56a2dc;
+	padding-right: 25px;
+	line-height: 33px;
+}
+.menu-link:hover{
+	background: #4eabda;
+	text-decoration: underline;
+	color: #fff;
+	height: 36px;
+}
+/*CONTENT*/
+.content{
+	width: 560px;
+	margin: 212px auto;
+	background: rgba(15, 15, 15, 0.7);
+}
+.cadastre{
+	padding: 20px 0;
+	border-bottom: 1px solid #b4c9ce;
+	font-size: 24px;
+	text-align: center;
+	color: #fff;
+}
+form{
+	padding-left: 130px;
+}
+input{
+	display: block;
+	width: 250px;
+	margin: 17px 10px;
+	padding: 10px 10px 10px 15px;
+	border-radius: 3px;
+	background: #000;
+	color: #fff;
+}
+.face{
+	margin-top: 40px;
+	background: url(../img/face.png);
+	padding-right: 5px;
+}
+input[type="checkbox"]{
+	display: inline-block;
+	width: 10px;
+}
+.bott{
+	width: 150px;
+	margin-top: -3px;
+	margin-left: 73px;
+	padding: 8px;
+	background: linear-gradient(to bottom, #67c6e6, #2e7ac4);
+	font-size: 14px;
+}
+.check{
+	color: #fff;
+	font-size: 12px;
+}
+.ou{
+	padding-left: 15px;
+}
+.ou:before{
+	content: url(../img/line.png);
+	position: relative;
+    top: -5px;
+    left: -3px;
+}
+.ou:after{
+	content: url(../img/line.png);
+	position: relative;
+    top: -5px;
+    left:3px;
+}
+.foot-text{
+	color: #cccccc;
+	font-size: 11px;
+	text-align: center;
+	padding-bottom: 20px;
+}
+.foot{
+	display: block;
+}
 
 
 
