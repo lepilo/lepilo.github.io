@@ -1,6 +1,7 @@
 body{
 	background: url(../img/bg.png);
 	font-family: Tahoma, Arial, sans-serif;
+	margin-top: -40px;
 }
 .wrapper{
 	width: 1000px;
@@ -124,6 +125,7 @@ text-decoration: underline;
 	float: left;
 	width: 210px;
 	background: #edeef0;
+	border-right: 1px solid #c7cacf;
 	padding-bottom: 20000px;
 	margin-bottom: -20000px;
 }
@@ -154,6 +156,7 @@ h1 {
 	float: right;
 	width: 210px;
 	background: #edeef0;
+	border-left: 1px solid #c7cacf;
 	padding-bottom: 20000px;
 	margin-bottom: -20000px;
 }
