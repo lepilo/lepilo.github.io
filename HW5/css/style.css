@@ -7,11 +7,10 @@
 }
 body{
 	font-family: Helvetica;
+	background: url(../img/bg.jpg);
+	background-size: cover;
 }
 .wrapper{
-	background: url(../img/bg.jpg);
-	width: 1215px;
-	height: 1028px;
 	margin: 0 auto;
 }
 /*HEADER*/
@@ -72,6 +71,7 @@ li{
 }
 .menu-link{
 	display: block;
+	padding: 0 10px;
 	color: #60b5ed;
 	text-decoration: none;
 }
@@ -82,7 +82,6 @@ li{
 }
 .menu-link:hover{
 	background: #4eabda;
-	text-decoration: underline;
 	color: #fff;
 	height: 36px;
 }
