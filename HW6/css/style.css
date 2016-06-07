@@ -103,35 +103,193 @@ input{
 }
 /*MENU*/
 .menu{
+	height: 33px;
 	background: linear-gradient(to bottom, #4d5663, #010101);
 	overflow: hidden;
 	margin-top: 3px;
 	border-radius: 5px;
+	position: relative;
+	-webkit-box-shadow: -1px 2px 16px -2px rgba(0,0,0,0.75);
+	-moz-box-shadow: -1px 2px 16px -2px rgba(0,0,0,0.75);
+	box-shadow: -1px 2px 16px -2px rgba(0,0,0,0.75);
 }
 .main-menu{
-	margin-left: 110px;
+	margin-left: 134px;
+	float: left;
 }
 .menu-item{
 	display: inline-block;
-	margin: 0 5px;
-
-
 }
 .menu-link{
 	color: #b1bcc0;
+	padding: 5px 12px;
+	height: 33px;
+	line-height: 33px;
 	text-decoration: none;
 	text-transform: uppercase;
-	vertical-align: middle;
-	padding: 5px 5px;
+	font-size: 13px;
+	letter-spacing: 0.6px;
+}
+.menu-link:hover{
+	background: linear-gradient(to bottom, #1f6585, #0c3357);
+	border-radius: 15px;
+	color: #fff;
+}
+.menu-text:before{
+	content: url(../img/korzina.png);
+	position: absolute;
+	top: 5px;
+	right: 204px;
 }
 .menu-text{
 	float: right;
+	color: #929b9f;
+	padding-right: 15px;
+	line-height: 33px;
+	font-size: 11px;
 }
-
-
-
-
-
+.blue{
+	color: #0e4f7d;
+	font-size: 12px;
+}
+/*CONTENT LEFT*/
+.content{
+	margin-top: 166px;
+}
+.left{
+	float: left;
+	position: relative;
+}
+.catalog:before{
+	content: url(../img/catalog.png);
+	position: absolute;
+	top: 2px;
+	left: 2px;
+}
+.catalog{
+	width: 152px;
+	padding: 6px 0;
+	padding-left: 27px;
+	margin-bottom: 13px;
+	text-transform: uppercase;
+	font-size: 13px;
+	color: #114165;
+	border: 1px solid #000;
+	border-radius: 15px;
+	-webkit-box-shadow: 3px 6px 38px -8px rgba(0,0,0,0.75);
+	-moz-box-shadow: 3px 6px 38px -8px rgba(0,0,0,0.75);
+	box-shadow: 3px 6px 38px -8px rgba(0,0,0,0.75);
+}
+.tires:before{
+	content: url(../img/circle.png);
+	position: absolute;
+	top: 42px;
+	left: 5px;
+}
+.tires{
+	width: 119px;
+	padding: 6px 0 6px 30px;
+	margin-bottom: 6px;
+	text-transform: uppercase;
+	font-size: 13px;
+	color: #114165;
+	border: 1px solid #000;
+	border-radius: 15px;
+}
+.tires-list{
+	margin-left: 34px;
+}
+.tires-item:before{
+	content: url(../img/smallc.png);
+}
+.tires-item{
+	margin: 8px 0;
+}
+.tires-link{
+	font-size: 13px;
+	color: #465961;
+	text-decoration: none;
+}
+.tires-link:hover{
+	font-style: italic;
+	text-decoration: underline;
+	color: #0c3256;
+	font-weight: bold;
+	font-size: 14px;
+}
+.disk{
+	margin-top: -2px;
+}
+.disk:before{
+	content: url(../img/circle.png);
+	position: absolute;
+	top: 171px;
+	left: 5px;
+}
+.disk-item{
+	margin-top: -2px;
+	margin: 8px 0;
+}
+.bolt{
+	margin-top: -5px;
+}
+.bolt:before{
+	content: url(../img/circle.png);
+	position: absolute;
+	top: 297px;
+	left: 5px;
+}
+/*CENTER*/
+.center{
+	float: left;
+	width: 526px;
+	margin-left: 10px;
+	margin-top: -2px;
+	padding: 12px 22px 5px 22px;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+	border-radius:2px;
+	background: linear-gradient(to bottom, #e5e7e8, #93a7b0);
+}
+.center-link{
+	text-decoration: none;
+}
+figure{
+	display: inline-block;
+	margin-bottom: 23px;
+}
+.n{
+	display: block;
+	color: #1f2528;
+	font-size: 13px;
+}
+.price{
+	font-size: 16px;
+	color: #114165;
+	font-family: Arial;
+	font-style: italic;
+	font-weight: 900;
+}
+figcaption{
+	text-align: center;
+	color: #206988;
+}
+.good{
+	font-size: 15px;
+}
+.nokian{
+	font-size: 15px;
+}
+.hank{
+	font-size: 15px;
+}
+.s-elem{
+	margin-left: 19px;
+}
+.t-elem{
+	margin-left: 20px;
+}
 
 
 
