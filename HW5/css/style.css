@@ -103,21 +103,53 @@ form{
 }
 input{
 	display: block;
-	width: 250px;
+	width: 238px;
 	margin: 17px 10px;
 	padding: 10px 10px 10px 15px;
-	border-radius: 3px;
-	background: #000;
+	/*background: #000;*/
 	color: #fff;
 }
-.face{
-	margin-top: 40px;
-	background: url(../img/face.png);
-	padding-right: 5px;
+.facebook{
+	background: linear-gradient(to bottom, #3e559b, #2b4276);
+    width: 215px;
+    overflow: hidden;
+    margin-left: 10px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    padding-right: 52px;
+    border-radius: 3px;
+}
+.btnFacebook {
+	display: block;
+	border-radius: 4px;
+	margin-left: 5px;
+	color: white;
+	text-decoration: none;
+	font-family: Arial, sans-serif;
+	padding: 0 auto;
+	line-height: 35px;
+}
+.btnFacebook:before {
+	border-right: 2px groove #4c68a9;
+	content: 'f';
+	font-weight: 900;
+	padding: 0 15px;
+	float: left;
+}
+.login {
+	font-family: Arial, sans-serif;
+	font-weight: 700;
+	font-size: 14px;
+}
+.with {
+	font-weight: 200;
 }
 input[type="checkbox"]{
 	display: inline-block;
 	width: 10px;
+}
+.transp{
+	background: rgba(0, 0, 0, 0.6);
 }
 .bott{
 	width: 150px;
@@ -129,22 +161,31 @@ input[type="checkbox"]{
 }
 .check{
 	color: #fff;
-	font-size: 12px;
+	font-size: 14px;
 }
 .ou{
 	padding-left: 15px;
 }
-.ou:before{
-	content: url(../img/line.png);
-	position: relative;
-    top: -5px;
-    left: -3px;
+.ou:before {
+	display: inline-block;
+	content: '';
+	clear: both;
+	border-top: 1px solid grey;
+	border-bottom: 1px solid black;
+	vertical-align: middle;
+	width: 110px;
+	margin-right: 6px;
 }
-.ou:after{
-	content: url(../img/line.png);
-	position: relative;
-    top: -5px;
-    left:3px;
+.ou:after {
+	content: '';
+	clear: both;
+	display: inline-block;
+	border-top: 1px solid grey;
+	border-bottom: 1px solid black;
+	vertical-align: middle;
+	width: 110px;
+	margin-left: 6px;
+	
 }
 .foot-text{
 	color: #cccccc;
