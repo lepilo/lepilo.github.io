@@ -20,6 +20,7 @@
     font-style: normal;
 }
 .header{
+	position: relative;
 	background:  url(../img/bg.jpg) top center no-repeat;
 	-webkit-background-size: cover;
 	background-size: cover;
@@ -332,7 +333,7 @@
 		max-width: 320px;
 	}
 	.menu{
-		position: absolute;
+		/*position: absolute;*/
 		top: 0;
 		left: 0;
 		right: 0;
@@ -341,6 +342,19 @@
 	.footer-header{
 		display: none;
 	}
+}
+@media (max-width: 768px) {
+	.sliderbg{
+		position: absolute;
+		top: 205px;
+		left: 0;
+		width: 768px;
+		background: rgba(0, 0, 0, 0.2);
+		height: 244px;
+	}
+	.slider__title{
+		
+	}	
 }
 
 

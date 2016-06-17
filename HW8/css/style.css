@@ -1,0 +1,389 @@
+*{
+	margin: 0;
+	padding: 0;
+	list-style-type: none;
+}
+@font-face {
+    font-family: "League Gothic";
+    src: url('../fonts/leaguegothic-regular-webfont.woff2') format('woff2'),
+         url('../fonts/leaguegothic-regular-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+/*GLOBAL*/
+.wrapper{
+	width: 960px;
+	margin: 0 auto;
+	position: relative;
+}
+.clearfix:after{
+	content: '';
+	display: block;
+	clear: both;
+	height: 0;
+	width: 100%;
+}
+
+/*HEADER*/
+.header{
+	position: relative;
+	min-height: 846px;
+	background: url(../img/bg960.jpg) center top no-repeat;
+	background-size: cover;
+	border-bottom: 1px solid #33253a;
+}
+.slider-bg{
+	height: 400px;
+	width: 100%;
+	top: 278px;
+	position: absolute;
+	background: rgba(0, 0, 0, 0.2);
+}
+.header-logo{
+	float: left;
+	padding-top: 51px;
+}
+.menu{
+	margin-left: 320px;
+}
+.menu__item{
+	display: inline-block;
+	margin-right: 35px;
+	padding-top: 72px;
+}
+.menu__item:last-child{
+	margin-right: -3px;
+}
+.menu__link{
+	padding: 0 6px;
+	text-transform: uppercase;
+	text-decoration: none;
+	font-family: "League Gothic", Tahoma, Arial, sans-serif;
+	font-size: 24px;
+	color: #fff;
+	text-shadow: 1px 1px 2px rgba(0, 0, 0, 1);
+}
+.menu__link:hover{
+	border-bottom: 2px solid #edbfff;
+}
+.header-content{
+	margin-top: 237px;
+}
+.text-block{
+	float: left;
+	width: 494px;
+	font-family: "League Gothic", Tahoma, Arial, sans-serif;
+}
+.text__title{
+	font-size: 60px;
+	text-transform: capitalize;
+	color: #fefefe;
+	letter-spacing: -0.4px;
+	text-shadow: 1px 1px 2px rgba(0, 0, 0, 1);
+}
+.text__subtitle{
+	margin-top: -12px;
+	font-size: 32px;
+	color: #edbfff;
+	text-transform: uppercase;
+}
+.text__text{
+	margin-top: 4px;
+	line-height: 24px;
+	letter-spacing: 0.7px;
+	font-family: "Open Sans", Tahoma, Arial, sans-serif;
+	color: #fff;
+	text-shadow: 1px 1px 2px rgba(0, 0, 0, 1);
+}
+.img-block{
+	float: right;
+	margin-top: -98px;
+	margin-right: 71px;
+}
+.buttons{
+	float: right;
+	margin: 71px 164px 0 0;
+}
+.buttons__items{
+	display: inline-block;
+	margin-right: 2px;
+	width: 16px;
+	height: 16px;
+	background: rgba(0, 0, 0, 0.3);
+	border-radius: 100%;
+}
+.buttons__items:nth-child(2):before{
+	content: '';
+	display: block;
+	width: 10px;
+	height: 10px;
+	background: #fff;
+	border-radius: 100%;
+	margin: 3px;
+}
+/*UNDER-HEAD*/
+.under-head{
+	padding: 72px 0 66px 124px;
+	background: linear-gradient(to bottom, #6b4a78, #33253a);
+	border-bottom: 1px solid #1d2f37;
+}
+.about{
+	position: relative;
+	float: left;
+	width: 33%;
+	padding-right: 91px;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+	text-align: justify;
+}
+.about:before{
+	content: '';
+	position: absolute;
+	top: 10px;
+	left: -53px;
+	width: 28px;
+	height: 28px;
+	background: url(../img/about-icons.png) 0 0 no-repeat;
+}
+.about--message:before{
+	background-position: -31px 0;
+}
+.about--message{
+	margin-left: 23px;
+}
+.about--note{
+	margin-left: -15px;
+}
+.about--note:before{
+	background-position: -60px 0;
+}
+.about__title{
+	text-transform: uppercase;
+	font-family: "League Gothic", Tahoma, Arial, sans-serif;
+	font-size: 30px;
+	color: #FFF;
+	text-shadow: 1px 1px 2px rgba(0, 0, 0, 1);
+}
+.about__text{
+	padding-top: 7px;
+	font-family: "Open Sans", Tahoma, Arial, sans-serif;
+	font-size: 16px;
+	line-height: 23px;
+	color: #fff;
+	text-shadow: 1px 1px 2px rgba(0, 0, 0, 1);
+}
+.about__link{
+	float: right;
+	padding-top: 20px;
+	margin-right: 9px;
+	text-transform: uppercase;
+	font-family: "League Gothic", Tahoma, Arial, sans-serif;
+	font-size: 18px;
+	color: #fff;
+	text-decoration: none;
+}
+/*CONTENT*/
+.content{
+	border-top: 1px solid #0d151b;
+	background: #f9f9f9;
+	padding-top: 99px;
+	padding-bottom: 88px;
+	border-bottom: 1px solid #e6e6e6;
+}
+.start{
+	width: 47%;
+	float: left;
+	height: 298px;
+	margin-left: 22px;
+	background:  url(../img/startbg.png) 0 0 no-repeat;
+	padding: 26px 55px 42px 39px;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+}
+.start__img{
+	position: absolute;
+	top: 17px;
+	left: -4px;
+}
+.start__title{
+	font-family: "League Gothic", Tahoma, Arial, sans-serif;
+	font-size: 30px;
+	color: #454545;
+	text-transform: uppercase;
+}
+.start__pink{
+	color: #edbfff;
+}
+.start__text{
+	padding-top: 6px;
+	line-height: 24px;
+	font-family: "Open Sans", Tahoma, Arial, sans-serif;
+}
+.buttons--content{
+	position: absolute;
+	top: 226px;
+	left: 194px;
+}
+.recent{
+	width: 46%;
+	float: left;
+	padding-top: 26px;
+	padding-left: 37px;
+}
+.recent__title{
+	margin-left: -2 px;
+	padding-bottom: 14px;
+	font-family: "League Gothic", Tahoma, Arial, sans-serif;
+	font-size: 30px;
+	color: #454545;
+	text-transform: uppercase;
+}
+.updates__img{
+	float: left;
+	padding-right: 16px;
+}
+.updates__title{
+	font-family: "Open Sans", Tahoma, Arial, sans-serif;
+	font-weight: 800;
+	padding-bottom: 1px;
+}
+.updates__subtitle{
+	font-family: "Open Sans";
+}
+.updates{
+	margin-bottom: 21px;
+}
+.updates__link{
+	float: right;
+	margin-top: 2px;
+	margin-right: 22px;
+	text-transform: uppercase;
+	text-decoration: none;
+	font-family: "League Gothic", Tahoma, Arial, sans-serif;
+	font-size: 18px;
+	color: #454545;
+}
+/*SPONSORS*/
+.sponsors{
+	background: #f9f9f9;
+	padding: 26px 0 24px 187px;
+	border-top: 1px solid #fefefe;
+	border-bottom: 1px solid #fefefe;
+}
+.logo{
+	vertical-align: middle;
+}
+.logo__item{
+	display: inline-block;
+	margin-right: 60px;
+}
+.logo__item:nth-child(4){
+	margin-left: 12px;
+}
+.logo__item:nth-child(5){
+	margin-left: 3px;
+	margin-top: -10px;
+}
+/*PREFOOTER*/
+.prefooter{
+	border-top: 1px solid #d8d8d8;
+	padding-top: 88px;
+	padding-bottom: 103px;
+	background: #ececec;
+	text-align: justify;
+}
+.ping{
+	width: 30%;
+	float: left;
+	margin-right: 50px;
+}
+.ping__title{
+	margin-left: -1px;
+	font-family: "League Gothic", Tahoma, Arial, sans-serif;
+	font-size: 48px;
+	font-weight: normal;
+	letter-spacing: -0.4px;
+	color: #454545;
+	text-transform: uppercase;
+}
+.ping__er{
+	color: #b9b9b9;
+}
+.ping__copy{
+	margin-top: 7px;
+	margin-left: -1px;
+	margin-bottom: 10px;
+	font-family: "Georgia";
+	font-style: italic;
+	color: #c5c5c5;
+}
+.ping__text{
+	margin-left: -1px;
+	font-family: "Open Sans", Tahoma, Arial, sans-serif;
+	font-size: 16px;
+	color: #787878;
+}
+.coments{
+	width: 30%;
+	float: left;
+	margin-right: 50px;
+}
+.coments__title{
+	margin-top: 4px;
+	margin-bottom: 5px;
+	font-family: "League Gothic", Tahoma, Arial, sans-serif;
+	font-size: 30px;
+	color: #454545;
+	text-transform: uppercase;
+}
+.coments__text{
+	font-family: "Open Sans", Tahoma, Arial, sans-serif;
+	font-size: 16px;
+	color: #787878;
+}
+.news{
+	width: 30%;
+	float: left;
+	margin-left: -4px;
+}
+.news__title{
+	margin-top: 4px;
+	margin-left: 5px;
+	font-family: "League Gothic", Tahoma, Arial, sans-serif;
+	font-size: 30px;
+	color: #454545;
+	text-transform: uppercase;
+}
+.news__text{
+	margin-top: 5px;
+	margin-left: 5px;
+	font-family: "Open Sans", Tahoma, Arial, sans-serif;
+	font-size: 16px;
+	color: #787878;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
