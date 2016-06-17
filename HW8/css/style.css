@@ -368,6 +368,8 @@
 /*FOOTER*/
 .footer{
 	background:  url(../img/bgfoot960.jpg) 0 0 no-repeat;
+	-webkit-background-size: cover;
+	background-size: cover;
 	height: 113px;
 }
 .menu--footer{
