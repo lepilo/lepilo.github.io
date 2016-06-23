@@ -414,7 +414,7 @@
 	text-decoration: none;
 	font-weight: 600;
 }
-@media (max-width: 768px) {
+@media (max-width: 960px) {
 	/*HEADER*/
 	.header{
 		min-height: 797px;
@@ -564,7 +564,7 @@
 		margin-right: 35px;
 	}
 }
-@media (max-width: 480px){
+@media (max-width: 768px){
 	.wrapper{
 		width: 480px;
 	}
@@ -751,7 +751,7 @@
 		margin-right: 174px;
 	}
 }
-@media (max-width:400px) {
+@media (max-width:480px) {
 	.wrapper{
 		width: 320px;
 	}	
