@@ -796,9 +796,9 @@
 		display: none;
 	}
 	/*UNDER-HEAD*/
-	.under-head{
+	/*.under-head{
 		padding: 67px 0 56px 121px;
-	}
+	}*/
 	.about{
 		margin-bottom: 56px;
 	}
@@ -823,7 +823,6 @@
 		margin-right: 27px;
 	}
 	.sponsors{
-		/*padding-top: 39px;*/
 		padding: 39px 0 64px 0;
 	}
 	.logo__item:first-child {
