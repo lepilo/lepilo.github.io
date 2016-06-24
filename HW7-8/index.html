@@ -3,145 +3,178 @@
 <head>
 	<meta charset="UTF-8">
 	<meta name="viewport" content="width=device-width">
-	<title>Pingbuller</title>
-	<link rel="stylesheet" href="css/reset.css">
+	<link href='https://fonts.googleapis.com/css?family=Open+Sans:300' rel='stylesheet' type='text/css'>
+	<link href='https://fonts.googleapis.com/css?family=Open+Sans:800' rel='stylesheet' type='text/css'>
+	<link rel="stylesheet" href="css/norm.css">
 	<link rel="stylesheet" href="css/style.css">
+	<title>Pingbuller</title>
 </head>
 <body>
+	
 	<header class="header">
-		<div class="wrapper">
-			<a href="#" class="logo"><img src="img/logo.png" alt="" class="logo__img"></a>
-			<div class="menu-wrapper">
-				<a href="#" class="dropdown">Home</a>
-				<ul class="menu">
-					<li class="menu__item"><a href="#" class="menu__link">Home</a></li>
-					<li class="menu__item"><a href="#" class="menu__link">About</a></li>
-					<li class="menu__item"><a href="#" class="menu__link">Blog</a></li>
-					<li class="menu__item"><a href="#" class="menu__link">Products</a></li>
-					<li class="menu__item"><a href="#" class="menu__link">Lorem ipsum</a></li>
-					<li class="menu__item"><a href="#" class="menu__link">Dolor sit amet</a></li>
-				</ul>
-			</div>	
-			<div class="slider">
-				<p class="slider__title">Lorem ipsum dolor</p>
-				<p class="slider__subtitle">it will make all you dreams come</p>
+		<div class="slider-bg"></div>
+		<div class="wrapper clearfix">
+			<div class="header-logo">
+				<a href="" class="header__link"><img src="img/logo.png" alt="" class="header__img"></a>
 			</div>
-			<div class="buttons">
-				<ul class="buttons__menu">
-					<li class="buttons__item"></li>
-					<li class="buttons__item"></li>
-					<li class="buttons__item"></li>
-					<li class="buttons__item"></li>
+			<div class="menu-wrapper clearfix">
+				<a href="#" class="dropdown">home</a>
+				<ul class="menu menu--480">
+					<li class="menu__item"><a href="#" class="menu__link">home</a></li>
+					<li class="menu__item"><a href="#" class="menu__link">about</a></li>
+					<li class="menu__item"><a href="#" class="menu__link">blog</a></li>
+					<li class="menu__item"><a href="#" class="menu__link">products</a></li>
+					<li class="menu__item"><a href="#" class="menu__link">lorem ipsum</a></li>
+					<li class="menu__item"><a href="#" class="menu__link">dolor sit amet</a></li>
 				</ul>
 			</div>
-		</div>
-		<div class="sliderbg"></div>
-	</header><!-- header -->
-	<section class="under-header">
-		<div class="wrapper">
-			<div class="about about--settings">
-				<p class="about__title">About our company</p>
-					<p class="about__text">
-						Nunc turpis neque, feugiat eget eleifend et, lacinia non neque. Praesent rhoncus
-					</p>
-					<a href="#" class="about__link">Read more</a>
-			</div>
-			<div class="about about--message">
-				<p class="about__title">About our company</p>
-					<p class="about__text">
-						Nunc turpis neque, feugiat eget eleifend et, lacinia non neque. Praesent rhoncus
-					</p>
-					<a href="#" class="about__link">Read more</a>
-			</div>
-			<div class="about about--note">
-				<p class="about__title">About our company</p>
-					<p class="about__text">
-						Nunc turpis neque, feugiat eget eleifend et, lacinia non neque. Praesent rhoncus
-					</p>
-					<a href="#" class="about__link">Read more</a>
-			</div>
-		</div>
-	</section><!-- under-header -->
-	<section class="content">
-		<div class="wrapper">
-			<div class="content__item">
-				<div class="start">
-					<img src="img/manico.png" alt="" class="start__image">
-					<p class="start__title">Pingbuller<span class="start__pink">starts here</span></p>
-					<p class="start__text">“Nunc turpis neque, feugiat eget eleifend et, lacinia non neque. Praesent rhoncus ultrices posuere. Pellentesque vel lacus eget nisi convallis auctor. Nam vitae</p>
+			<div class="header-content clearfix">
+				<div class="text-block">
+					<p class="text__title">lorem ipsum dolor</p>
+					<p class="text__subtitle">it will make all of your dreams come <span class="none768 none480">true</span></p>
+					<p class="text__text">Semper sollicitudin gravida eget, vestibulum sit amet sapien. Nunc dignissim tincidunt est, et auctor turpis ornare a. Nam venenatis hendrerit est <span class="none768">at volutpat. Morbi elementum euismod lacus id semper. In odio nunc, imperdiet eget aliquam quis, euismod id lectus. Nulla interdum arcu et felis aliquam a tempus lectus lobortis.</span></p>
+				</div>
+				<div class="img-block">
+					<img src="img/iphone960.png" alt="" class="phone__img">
+					<img src="img/iphone480.png" alt="" class="phone480">
 				</div>
 			</div>
 			<div class="buttons">
-				<ul class="buttons__menu">
-					<li class="buttons__item"></li>
-					<li class="buttons__item"></li>
-					<li class="buttons__item"></li>
-					<li class="buttons__item"></li>
+				<ul>
+					<li class="buttons__items"></li>
+					<li class="buttons__items"></li>
+					<li class="buttons__items"></li>
+					<li class="buttons__items"></li>
 				</ul>
 			</div>
-			<div class="updates">
-				<h3 class="updates__recent">Recent updates</h3>
-				<div class="updates__items">
-					<img src="img/circle.png" alt="" class="updates__image">
-					<p class="updates__title">Nunc turpis neque</p>
-					<p class="updates__subtitle">Posted by Admin on March 13</p>
-				</div>	
-				<div class="updates__items">
-					<img src="img/circle2.png" alt="" class="updates__image">
-					<p class="updates__title">Nunc turpis neque</p>
-					<p class="updates__subtitle">Posted by Admin on March 13</p>
-				</div>	
-				<div class="updates__items">
-					<img src="img/circle3.png" alt="" class="updates__image">
-					<p class="updates__title">Nunc turpis neque</p>
-					<p class="updates__subtitle">Posted by Admin on March 13</p>
-				</div>	
+		</div>
+	</header><!-- header -->
+	<section class="under-head">
+		<div class="wrapper clearfix">
+			<div class="about about--setting">
+				<p class="about__title">about our company</p>
+				<p class="about__text">Nunc turpis neque, feugiat eget eleifend et, lacinia non neque. Praesent rhoncus <span class="none320">ultrices posuere. Pellentesque vel lacus <span class="none768">eget nisi convallis auctor. Nam</span></span></p>
+				<a href="#" class="about__link">read more</a>
 			</div>
-			<a href="#" class="updates__link">more blog posts</a>
+			<div class="about about--message">
+				<p class="about__title">about our company</p>
+				<p class="about__text">Nunc turpis neque, feugiat eget eleifend et, lacinia non neque. Praesent rhoncus <span class="none320">ultrices posuere. Pellentesque vel lacus <span class="none768">eget nisi convallis auctor. Nam</span></span></p>
+				<a href="#" class="about__link">read more</a>
+			</div>
+			<div class="about about--note">
+				<p class="about__title">about our company</p>
+				<p class="about__text">Nunc turpis neque, feugiat eget eleifend et, lacinia non neque. Praesent rhoncus <span class="none320">ultrices posuere. Pellentesque vel lacus <span class="none768">eget nisi convallis auctor. Nam</span></span></p>
+				<a href="#" class="about__link">read more</a>
+			</div>
+		</div>
+	</section><!-- under-head -->
+	<section class="content">
+		<div class="wrapper clearfix">
+			<div class="start">
+				<img src="img/man.png" alt="" class="start__img">
+				<p class="start__title">pingbuller <span class="start__pink">starts here</span></p>
+				<p class="start__text">“Nunc turpis neque, feugiat eget eleifend et, lacinia non neque. Praesent rhoncus ultrices posuere. Pellentesque vel lacus eget nisi convallis auctor. Nam vitae <span class="none320">lectus eu libero pellentesque pulvinar <span class="none768 display480">urna risus, mattis pulvinar bibendum in, venenatis quis neque. Mauris nec metus ultricies erat consequat dignissim non eu nisl.”</span></span>
+				</p>
+			<div class="buttons buttons--content">
+					<ul>
+						<li class="buttons__items"></li>
+						<li class="buttons__items"></li>
+						<li class="buttons__items"></li>
+						<li class="buttons__items"></li>
+					</ul>
+			</div>
+			</div>
+			<div class="recent">
+				<p class="recent__title">recent updates</p>
+				<div class="updates">
+					<img src="img/circle3.png" alt="" class="updates__img">
+					<p class="updates__title">Nunc turpis neque <span class="none320">feugiat eget</span></p>
+					<p class="updates__subtitle">Posted by Admin on March 13 <span class="none320">2012</span><span class="none768 none480"> in Recent News</span></p>
+				</div>
+				<div class="updates">
+					<img src="img/circle2.png" alt="" class="updates__img img--center">
+					<p class="updates__title">Nunc turpis neque <span class="none320">feugiat eget</span></p>
+					<p class="updates__subtitle">Posted by Admin on March 13 <span class="none320">2012</span><span class="none768 none480"> in Recent News</span></p>
+				</div>
+				<div class="updates">
+					<img src="img/circle.png" alt="" class="updates__img img--last">
+					<p class="updates__title">Nunc turpis neque <span class="none320">feugiat eget</span></p>
+					<p class="updates__subtitle">Posted by Admin on March 13 <span class="none320">2012</span><span class="none768 none480"> in Recent News</span></p>
+				</div>
+			</div>
+			<a href="#" class="updates__link">read more here</a>
+			<a href="#" class="updates__link768 updates__link480">more blog posts</a>
 		</div>
 	</section><!-- content -->
-	<section class="logos">
+	<section class="sponsors">
 		<div class="wrapper">
-			<ul class="logos__menu">
-				<li class="logos__item"><a href="#" class="logos__link"><img src="img/logos1.png" alt="" class="logos-img"></a></li>
-				<li class="logos__item"><a href="#" class="logos__link"><img src="img/logos2.png" alt="" class="logos-img"></a></li>
-				<li class="logos__item"><a href="#" class="logos__link"><img src="img/logos3.png" alt="" class="logos-img"></a></li>
-				<li class="logos__item"><a href="#" class="logos__link"><img src="img/logos4.png" alt="" class="logos-img"></a></li>
-				<li class="logos__item"><a href="#" class="logos__link"><img src="img/logos5.png" alt="" class="logos-img"></a></li>
-				<li class="logos__item"><a href="#" class="logos__link"><img src="img/logos6.png" alt="" class="logos-img"></a></li>
+			<ul class="logo">
+				<li class="logo__item"><a href="#" class="logo__link"><img src="img/logo1.png" alt="" class="logo__img"></a></li>
+				<li class="logo__item"><a href="#" class="logo__link"><img src="img/logo2.png" alt="" class="logo__img"></a></li>
+				<li class="logo__item"><a href="#" class="logo__link"><img src="img/logo3.png" alt="" class="logo__img"></a></li>
+				<li class="logo__item logo--480"><a href="#" class="logo__link"><img src="img/logo4.png" alt="" class="logo__img"></a></li>
+				<li class="logo__item "><a href="#" class="logo__link"><img src="img/logo5.png" alt="" class="logo__img"></a></li>
+				<li class="logo__item "><a href="#" class="logo__link"><img src="img/logo6.png" alt="" class="logo__img"></a></li>
 			</ul>
+		</div>	
+	</section><!-- sponsors -->
+	<section class="prefooter">
+		<div class="wrapper clearfix">
+			<div class="ping">
+				<p class="ping__title">pigbull<span class="ping__er">er</span></p>
+				<p class="ping__copy">Copyright 2013, Pingbull AS</p>
+				<p class="ping__text">Nunc turpis neque, feugiat eget eleifend et, lacinia non neque. Praesent rhoncus ultrices posuere. Pellentesque vel lacus eget nisi convallis auctor. Nam vitae lectus eu libero pellentesque pul-</p>
+			</div>
+			<div class="coments">
+				<p class="coments__title">recent comments</p>
+				<p class="coments__text">Nunc turpis neque, feugiat eget eleifend et, lacinia non neque. Praesent rhoncus ultrices posuere. Pellentesque vel lacus eget nisi convallis auctor. Nam vitae lectus eu libero pellentesque pulvinar. Quisque urna risus, mattis pulvinar bibendum in, venenatis quis</p>
+			</div>
+			<div class="news">
+				<p class="news__title">news categories</p>
+				<p class="news__text">Nunc turpis neque, feugiat eget eleifend et, lacinia non neque. Praesent rhoncus ultrices posuere. Pellentesque vel lacus eget nisi convallis auctor. Nam vitae lectus eu libero pellentesque <span class="none768"> pulvinar. Quisque urna risus, mattis pulvinar bibendum in, venenatis quis</span></p>
+			</div>
+			<div class="news news--768">
+				<p class="news__title">news categories</p>
+				<p class="news__text">Nunc turpis neque, feugiat eget eleifend et, lacinia non neque. Praesent rhoncus ultrices posuere. Pellentesque vel lacus eget nisi convallis auctor. Nam vitae lectus eu libero pellentesque <span class="none768"> pulvinar. Quisque urna risus, mattis pulvinar bibendum in, venenatis quis</span></p>
+			</div>
+			<div class="news news--768">
+				<p class="news__title">news categories</p>
+				<p class="news__text">Nunc turpis neque, feugiat eget eleifend et, lacinia non neque. Praesent rhoncus ultrices posuere. Pellentesque vel lacus eget nisi convallis auctor. Nam vitae lectus eu libero pellentesque <span class="none768"> pulvinar. Quisque urna risus, mattis pulvinar bibendum in, venenatis quis</span></p>
+			</div>
 		</div>
-	</section>
-	<section class="footer-header">
-		<div class="wrapper">
-			<div class="news">
-				<p class="news__title">News categories</p>
-				<p class="news__text">Nunc turpis neque, feugiat eget eleifend et, lacinia non neque. Praesent rhoncus ultrices posuere. Pellentesque vel lacus eget nisi convallis auctor. Nam vitae lectus eu libero pellentesque</p>
-			</div>
-			<div class="news">
-				<p class="news__title">News categories</p>
-				<p class="news__text">Nunc turpis neque, feugiat eget eleifend et, lacinia non neque. Praesent rhoncus ultrices posuere. Pellentesque vel lacus eget nisi convallis auctor. Nam vitae lectus eu libero pellentesque</p>
-			</div>
-			<div class="news">
-				<p class="news__title">News categories</p>
-				<p class="news__text">Nunc turpis neque, feugiat eget eleifend et, lacinia non neque. Praesent rhoncus ultrices posuere. Pellentesque vel lacus eget nisi convallis auctor. Nam vitae lectus eu libero pellentesque</p>
-			</div>
-		</div>
-	</section><!-- footer-header -->
+	</section><!-- prefooter -->
 	<footer class="footer">
-		<div class="wrapper">
+		<div class="wrapper clearfix">
 			<ul class="menu menu--footer">
-				<li class="menu__item"><a href="#" class="menu__link">Home</a></li>
-				<li class="menu__item"><a href="#" class="menu__link">About</a></li>
-				<li class="menu__item"><a href="#" class="menu__link">Blog</a></li>
-				<li class="menu__item"><a href="#" class="menu__link">Products</a></li>
-				<li class="menu__item"><a href="#" class="menu__link">Lorem ipsum</a></li>
-				<li class="menu__item"><a href="#" class="menu__link">Dolor sit amet</a></li>
+				<li class="menu__item"><a href="#" class="menu__link">home</a></li>
+				<li class="menu__item"><a href="#" class="menu__link">about</a></li>
+				<li class="menu__item"><a href="#" class="menu__link">blog</a></li>
+				<li class="menu__item"><a href="#" class="menu__link">products</a></li>
+				<li class="menu__item"><a href="#" class="menu__link">lorem ipsum</a></li>
+				<li class="menu__item"><a href="#" class="menu__link">dolor sit amet</a></li>
 			</ul>
-			<p class="footer__copy">
-				Designed by <span class="copy">Pingbull AS</span>
-			</p>
+		<div class="design">
+			<p class="design__text">Designed by <a href="#" class="design__link">Pingbull AS</a></p>
 		</div>
+		</div>	
 	</footer><!-- footer -->
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 </body>
-</html>	
+</html>
