@@ -375,6 +375,7 @@ input[type="button"]{
 	background: linear-gradient(to bottom, #1f6787, #0c3357);
     text-transform: uppercase;
     border-radius: 15px;
+    border: none;
     height: 28px;
     margin-top: 8px;
     line-height: 20px;
