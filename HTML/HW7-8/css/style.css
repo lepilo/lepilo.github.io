@@ -293,6 +293,7 @@
 .logo__item{
 	display: inline-block;
 	margin-right: 60px;
+	line-height: 50px;
 }
 .logo__item:nth-child(4){
 	margin-left: 12px;
@@ -414,7 +415,7 @@
 	text-decoration: none;
 	font-weight: 600;
 }
-@media (max-width: 960px) {
+@media (max-width: 959px) {
 	/*HEADER*/
 	.header{
 		min-height: 797px;
@@ -567,7 +568,7 @@
 		margin-right: 35px;
 	}
 }
-@media (max-width: 768px){
+@media (max-width: 767px){
 	.wrapper{
 		width: 480px;
 	}
@@ -763,7 +764,7 @@
 		margin-right: 174px;
 	}
 }
-@media (max-width:480px) {
+@media (max-width:479px) {
 	.wrapper{
 		width: 320px;
 	}	
