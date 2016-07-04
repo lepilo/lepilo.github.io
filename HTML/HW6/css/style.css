@@ -1,0 +1,455 @@
+@font-face {
+    font-family: 'Lucida Sans';
+    src: url('../fonts/lucida_sans_unicode-webfont.woff2') format('woff2'),
+         url('../fonts/lucida_sans_unicode-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+body{
+	font-family: 'Lucida Sans';
+}
+.wrapper{
+	width: 908px;
+	margin: 0 auto;
+	padding: 18px 6px;
+}
+/*HEADER TOP*/
+.phone{
+	width: 291px;
+	position: relative;
+	float: left;
+	padding-top: 4px;
+	margin-left: 7px;
+}
+.phoneimg{
+	position: absolute;
+	top: 4px;
+}
+.number{
+	margin-left: 26px;
+	margin-top: 2px;
+	font-family: Arial, sans-serif;
+	font-size: 18px;
+	color: #5e696d;
+}
+.login{
+	width: 477px;
+	background: linear-gradient(to bottom, #1f6787, #0d3458);
+	margin-left: 314px;
+	margin-top: -5px;
+	padding: 4px 10px 5px 7px;
+	border-radius: 3px;
+	overflow: hidden;
+	-webkit-box-shadow: -1px 2px 16px -2px rgba(0,0,0,0.75);
+	-moz-box-shadow: -1px 2px 16px -2px rgba(0,0,0,0.75);
+	box-shadow: -1px 2px 16px -2px rgba(0,0,0,0.75);
+}
+.login-form{
+	width: 295px;
+	float: left;
+	position: relative;
+}
+.manico{
+	position: absolute;
+}
+form{
+	margin-left: 18px;
+}
+input{
+	width: 109px;
+	height: 11px;
+}
+.login-enter{
+	float: left;
+	margin-left: -34px;
+	margin-top: -2px;
+}
+.enter-item{
+	display: inline-block;
+}
+.enter-link{
+	text-decoration: none;
+	color: #fff;
+	font-size: 11px;
+}
+/*.enter-link:last-child{ ПОЧЕМУ СРАБАТЫВАЕТ ДЛЯ ВСЕХ А НЕ ДЛЯ ПОСЛЕДНЕГО ЭЛЕМЕНТА?
+	text-decoration: underline;
+}
+.enter-link:nth-child(3){ПОЧЕМУ НЕ СРАБАТЫВАЕТ ВООБЩЕ?
+	text-decoration: underline;
+}*/
+.border{
+	border-right: 1px solid #fff;
+	padding-right: 3px;
+	line-height: 1px;
+}
+.underline{
+	margin-left: 15px;
+	text-decoration: underline;
+	color: #bfbfbf;
+}
+.navigation{
+	width: 50px;
+    float: right;
+    margin-top: -25px;
+    margin-right: 6px;
+    padding: 1px 12px;
+    margin-bottom: 15px;
+    border: 1px solid #c0c7c9;
+    border-radius: 10px;
+    -webkit-box-shadow: 1px 1px 13px -5px rgba(0,0,0,0.75);
+	-moz-box-shadow: 1px 1px 13px -5px rgba(0,0,0,0.75);
+	box-shadow: 1px 1px 13px -5px rgba(0,0,0,0.75);
+}
+/*MENU*/
+.menu{
+	width: 910px;
+	height: 33px;
+	background: linear-gradient(to bottom, #4d5663, #010101);
+	overflow: hidden;
+	margin-top: 3px;
+	border-radius: 5px;
+	position: relative;
+	-webkit-box-shadow: 6px 6px 13px -5px rgba(0,0,0,0.75);
+	-moz-box-shadow: 6px 6px 13px -5px rgba(0,0,0,0.75);
+	box-shadow: 6px 6px 13px -5px rgba(0,0,0,0.75);
+}
+.main-menu{
+	margin-left: 134px;
+	float: left;
+}
+.menu-item{
+	display: inline-block;
+}
+.menu-link{
+	color: #b1bcc0;
+	padding: 5px 12px;
+	height: 33px;
+	line-height: 33px;
+	text-decoration: none;
+	text-transform: uppercase;
+	font-size: 13px;
+	letter-spacing: 0.6px;
+}
+.menu-link:hover{
+	background: linear-gradient(to bottom, #1f6585, #0c3357);
+	border-radius: 15px;
+	color: #fff;
+}
+.menu-text:before{
+	content: url(../img/korzina.png);
+	position: absolute;
+	top: 5px;
+	right: 206px;
+}
+.menu-text{
+	float: right;
+	color: #929b9f;
+	padding-right: 15px;
+	line-height: 33px;
+	font-size: 11px;
+}
+.blue{
+	color: #0e4f7d;
+	font-size: 12px;
+}
+/*CONTENT LEFT*/
+.content{
+	margin-top: 166px;
+	margin-bottom: 36px;
+	/*overflow: hidden;*/
+}
+.content:after{
+	content: '';
+	display: block;
+	clear: both;
+}
+.left{
+	float: left;
+	position: relative;
+}
+.catalog:before{
+	content: url(../img/catalog.png);
+	position: absolute;
+	top: 2px;
+	left: 2px;
+}
+.catalog{
+	width: 152px;
+	padding: 6px 0;
+	padding-left: 27px;
+	margin-bottom: 13px;
+	text-transform: uppercase;
+	font-size: 13px;
+	color: #114165;
+	border: 1px solid #79878d;
+	border-radius: 15px;
+	-webkit-box-shadow: 4px 4px 13px -5px rgba(0,0,0,0.75);
+	-moz-box-shadow: 4px 4px 13px -5px rgba(0,0,0,0.75);
+	box-shadow: 4px 4px 13px -5px rgba(0,0,0,0.75);
+}
+.tires:before{
+	content: url(../img/circle.png);
+	position: absolute;
+	top: 42px;
+	left: 5px;
+}
+.tires{
+	width: 119px;
+	padding: 6px 0 6px 30px;
+	margin-bottom: 6px;
+	text-transform: uppercase;
+	font-size: 13px;
+	color: #114165;
+	border: 1px solid #79878d;
+	border-radius: 15px;
+}
+.tires-list{
+	margin-left: 34px;
+}
+.tires-item:before{
+	content: url(../img/smallc.png);
+}
+.tires-item{
+	margin: 8px 0;
+}
+.tires-link{
+	font-size: 13px;
+	color: #465961;
+	text-decoration: none;
+}
+.tires-link:hover{
+	font-style: italic;
+	text-decoration: underline;
+	color: #0c3256;
+	font-weight: bold;
+	font-size: 14px;
+}
+.disk{
+	margin-top: -2px;
+}
+.disk:before{
+	content: url(../img/circle.png);
+	position: absolute;
+	top: 171px;
+	left: 5px;
+}
+.disk-item{
+	margin-top: -2px;
+	margin: 8px 0;
+}
+.bolt{
+	margin-top: -5px;
+}
+.bolt:before{
+	content: url(../img/circle.png);
+	position: absolute;
+	top: 297px;
+	left: 5px;
+}
+/*CENTER*/
+.center{
+	float: left;
+	width: 526px;
+	margin-left: 10px;
+	margin-top: -2px;
+	padding: 12px 22px 5px 22px;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+	border-radius: 2px;
+	background: linear-gradient(to bottom, #e5e7e8, #93a7b0);
+}
+.center-link{
+	text-decoration: none;
+}
+figure{
+	display: inline-block;
+	margin-bottom: 23px;
+}
+.n{
+	display: block;
+	color: #1f2528;
+	font-size: 13px;
+}
+.price{
+	font-size: 16px;
+	color: #114165;
+	font-family: Arial;
+	font-style: italic;
+	font-weight: 900;
+}
+figcaption{
+	text-align: center;
+	color: #206988;
+}
+.good{
+	font-size: 15px;
+}
+.nokian{
+	font-size: 15px;
+}
+.hank{
+	font-size: 15px;
+}
+.s-elem{
+	margin-left: 19px;
+}
+.t-elem{
+	margin-left: 20px;
+}
+/*RIGHT*/
+.right{
+	float: right;
+}
+.brends:before{
+	content: url(../img/catalog.png);
+	position: absolute;
+	top: 1px;
+	left: 2px;
+	
+}
+.brends{
+	width: 152px;
+	position: relative;
+	padding: 6px 0;
+	padding-left: 27px;
+	margin-top: -2px;
+	margin-bottom: 13px;
+	text-transform: uppercase;
+	font-size: 13px;
+	color: #114165;
+	border: 1px solid #79878d;
+	border-radius: 15px;
+	-webkit-box-shadow: 4px 4px 13px -5px rgba(0,0,0,0.75);
+	-moz-box-shadow: 4px 4px 13px -5px rgba(0,0,0,0.75);
+	box-shadow: 4px 4px 13px -5px rgba(0,0,0,0.75);
+}
+.tires-right:before{
+	content: url(../img/circle.png);
+	position: absolute;
+	top: 2px;
+	left: 4px;
+}
+.tires-right{
+	width: 105px;
+	position: relative;
+    padding: 8px 0 6px 30px;
+    margin-left: 14px;
+    margin-bottom: 6px;
+    text-transform: uppercase;
+    font-size: 13px;
+    color: #114165;
+    border: 1px solid #79878d;
+    border-radius: 15px;
+}
+.brends-item{
+	font-size: 12px;
+	color: #465961;
+}
+input[type="checkbox"]{
+	width: 25px;
+	margin-left: 20px;
+	margin-bottom: 12px;
+}
+.disk-right:before{
+	content: url(../img/circle.png);
+	position: absolute;
+	top: 2px;
+	left: 2px;
+}
+.disk-right{
+	width: 105px;
+	position: relative;
+    padding: 8px 0 6px 30px;
+    margin-top: 2px;
+    margin-left: 14px;
+    margin-bottom: 6px;
+    text-transform: uppercase;
+    font-size: 13px;
+    color: #114165;
+    border: 1px solid #79878d;
+    border-radius: 15px;
+}
+input[type="button"]{
+	background: linear-gradient(to bottom, #1f6787, #0c3357);
+    text-transform: uppercase;
+    border-radius: 15px;
+    border: none;
+    height: 28px;
+    margin-top: 8px;
+    line-height: 20px;
+    width: 83px;
+    margin-left: 22px;
+	color: #e5e9ea;
+	-webkit-box-shadow: 0px 2px 11px -2px rgba(0,0,0,0.75);
+	-moz-box-shadow: 0px 2px 11px -2px rgba(0,0,0,0.75);
+	box-shadow: 0px 2px 11px -2px rgba(0,0,0,0.75);
+}
+/*LOGO*/
+.logo{
+	margin-left: 118px;
+	margin-bottom: 18px;
+}
+.logo-item{
+	display: inline-block;
+	margin-right: 8px;
+	margin-top: 6px;
+	vertical-align: top;
+}
+/*FOOTER*/
+.footer-menu{
+	width: 909px;
+	height: 100px;
+	background: #213a4d;
+}
+.foot{
+	margin-left: 297px;
+	margin-bottom: 10px;
+}
+.foot-item{
+	display: inline-block;
+	padding-top: 8px;
+}
+.foot-link{
+	color: #fff;
+	font-family: Arial, sans-serif;
+	font-size: 12px;
+	text-decoration: none;
+	padding: 0 12px;
+	border-right: 1px solid #fff;
+}
+.foot-link:nth-child(4){/*ПОЧЕМУ НЕ РАБОТАЕТ?*/
+	border-right: none;
+}
+.foot-link:hover{
+	color: #52abcb;
+}
+.footer{
+	margin-left: 378px;
+	font-size: 10px;
+	color: #7f4740;
+	font-family: Arial;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
