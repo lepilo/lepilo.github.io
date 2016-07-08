@@ -1,0 +1,30 @@
+body{
+	margin: 100px;
+}
+.wrapper{
+	width: 960px;
+	margin: 0 auto;
+}
+.title {
+	text-align: center;
+}
+ol li:first-child {
+	margin-top: 13px;
+}
+ol li:last-child {
+	margin-bottom: 13px;
+}
+.answer__item{
+	list-style-type: none;
+	margin-left: -40px;
+}
+
+button{
+	display: block;
+	margin: 0 auto;
+	padding: 15px 50px;
+	border: 2px solid #000;
+	background: #cfe1f5;
+}
+
+
