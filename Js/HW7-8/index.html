@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Document</title>
+	<script src="https://code.jquery.com/jquery-3.1.0.js" integrity="sha256-slogkvB1K3VOkzAI8QITxV3VzpOnkeNVsKvtkYLMjfk=" crossorigin="anonymous"></script>
+	<script src="js/main.js"></script>
+	<link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+	<div class="wrapper">
+		<div id="tabs">
+			<ul>
+				<li class="active"><a data="#tab-1" href="#">Tabs-1</a></li>
+				<li><a data="#tab-2" href="#">Tabs-2</a></li>
+				<li><a data="#tab-3" href="#">Tabs-3</a></li>
+				<li><a data="#tab-4" href="#">Tabs-4</a></li>
+			</ul>
+
+			<div id="tab-1" class="visible">
+				<p>1</p>
+			</div>
+			<div id="tab-2" class="hide">
+				<p>2</p>
+			</div>
+			<div id="tab-3" class="hide">
+				<p>3</p>
+			</div>
+			<div id="tab-4" class="hide">
+				<p>4</p>
+			</div>
+		</div>
+		<div class="forms">
+			<form action="">
+				<fieldset>
+					<section class="string">
+						<label for="firstname">Firstname</label>
+						<input id="firstname" type="text">
+						<span class="help">Please provide youre Firstname</span>
+					</section>
+					<section class="string">
+						<label for="lastname">Lastname</label>
+						<input id="lastname" type="text">
+						<span class="help">Please provide youre Lastname</span>
+					</section>
+					<section class="string">
+						<label for="address">Address</label>
+						<input id="address" type="text">
+						<span class="help">Please provide youre home address</span>
+					</section>
+					<div class="helpbtn">
+						<button id="button">Show Help</button>
+					</div>
+				</fieldset>
+			</form>
+		</div>
+	</div>
+</body>
+</html>
