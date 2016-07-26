@@ -18,7 +18,8 @@ var $title;
 			$(this).siblings('.help').html('')
 			$(this).attr('title', $title);
 		});
-	$('button').on('click', function() {
+	$('button').on('click', function(e) {
+			e.preventDefault();
 			for(var i=1; i < 4; i++){
 				var title = $('.string'+i).find('.inp').attr('title');
 				console.log(title);
