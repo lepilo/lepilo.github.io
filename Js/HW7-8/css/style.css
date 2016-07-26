@@ -61,7 +61,7 @@ label{
 	font-weight: bold;
 }
 .help{
-	display: none;
+	/*display: none;*/
 }
 .show{
 	display: inline-block;
