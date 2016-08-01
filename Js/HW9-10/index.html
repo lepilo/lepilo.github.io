@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Carousel</title>
+	<link rel="stylesheet" href="css/style.css">
+	<link rel="stylesheet" type="text/css" href="css/msdropdown/dd.css" />
+	<link rel="stylesheet" href="css/purple.css">
+	
+	<script src="https://code.jquery.com/jquery-3.1.0.min.js" integrity="sha256-cCueBR6CsyA4/9szpPfrX3s49M9vUU5BgtiJj06wt/s=" crossorigin="anonymous"></script>
+	<script src="Js/jquery.jcarousel.js"></script>
+	<script src="js/msdropdown/jquery.dd.min.js" type="text/javascript"></script>
+	<script src="js/icheck.js"></script>
+	<script src="js/jquery.color.js"></script>
+</head>
+<body>
+	<div class="wrapper">
+
+		<div class="slider">
+			<div class="jcarousel" dir="rtl">
+				<ul>
+					<li><img src="img/1.jpg" alt=""></li>
+					<li><img src="img/2.jpg" alt=""></li>
+					<li><img src="img/3.jpg" alt=""></li>
+				</ul>
+				<div class="jcarousel-pagination">
+	        <!-- Pagination items will be generated in here -->
+	    </div>
+			</div>
+			<a class="jcarousel-prev" href="#">&lt;</a>
+	    <a class="jcarousel-next" href="#">&gt;</a>
+	</div>
+	<nav>
+		<ul class="menu">
+			<li class="menu__item"><a href="" class="menu__link">Nav1</a></li>
+			<li class="menu__item"><a href="" class="menu__link">Nav2</a></li>
+			<li class="menu__item">
+			<a href="" class="menu__link">Nav3</a>
+			<ul class="submenu">
+				<li class="submenu__item"><a href="" class="submenu__link">Nav1.1</a></li>
+				<li class="submenu__item"><a href="" class="submenu__link">Nav2.2</a></li>
+				<li class="submenu__item">
+				<a href="" class="submenu__link">Nav3.3</a>
+				<ul class="subsub">
+					<li class="subsub__item"><a href="" class="subsub__link">Nav1.1</a></li>
+					<li class="subsub__item"><a href="" class="subsub__link">Nav2.2</a></li>
+					<li class="subsub__item"><a href="" class="subsub__link">Nav3.3</a></li>
+					<li class="subsub__item"><a href="" class="subsub__link">Nav4.4</a></li>
+					<li class="subsub__item"><a href="" class="subsub__link">Nav5.5</a></li>
+				</ul>
+				</li>
+				<li class="submenu__item"><a href="" class="submenu__link">Nav4.4</a></li>
+				<li class="submenu__item"><a href="" class="submenu__link">Nav5.5</a></li>
+			</ul>
+			</li>
+			<li class="menu__item"><a href="" class="menu__link">Nav4</a></li>
+			<li class="menu__item"><a href="" class="menu__link">Nav5</a></li>
+		</ul>
+	</nav>
+	<section class="select">
+		<select name="webmenu" id="webmenu">
+	    <option value="calendar" data-image="img/msdropdown/icons/icon_calendar.gif">Calendar</option>
+	    <option value="shopping_cart" data-image="img/msdropdown/icons/icon_cart.gif">Shopping Cart</option>
+	    <option value="cd" data-image="img/msdropdown/icons/icon_cd.gif">CD</option>
+	    <option value="email"  selected="selected" data-image="img/msdropdown/icons/icon_email.gif">Email</option>
+	    <option value="faq" data-image="img/msdropdown/icons/icon_faq.gif">FAQ</option>
+	    <option value="games" data-image="img/msdropdown/icons/icon_games.gif">Games</option>
+  	</select>
+	</section>
+	<section class="checkbox-jq">
+		<input type="checkbox">
+		<input type="checkbox" checked>
+		<input type="radio" name="iCheck">
+		<input type="radio" name="iCheck" checked>
+	</section>
+	<section class="checkbox-css">
+		<span class="block">
+		<input type="checkbox" name="" id="test-check1">
+		<label for="test-check1">Checkbox 1:</label>
+		</span>
+		<span class="block">
+		<input type="checkbox" name="" id="test-check2">
+		<label for="test-check2">Checkbox 2:</label>
+		</span>
+		<span class="block">
+		<input type="checkbox" name="" id="test-check3" checked>
+		<label for="test-check3">Checkbox 3:</label>
+		</span>
+	</section>
+
+	</div>	
+	<script src="Js/main.js"></script>
+</body>
+</html>
