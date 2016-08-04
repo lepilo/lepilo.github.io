@@ -1,0 +1,155 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+.clearfix:after {
+   content: "";
+   display: table;
+   clear: both;
+}
+.wrapper{
+	position: relative;
+	width: 1200px;
+	margin: 0 auto;
+}
+.carousel-wrap{
+	width: 855px;
+	margin: 0px 104px;
+	float: left;
+	overflow: hidden;
+}
+.carousel{
+	list-style: none;
+	width: 10000px;
+	padding: 0;
+	position: relative;
+}
+.carousel__item{
+	display: block;
+	margin-right: 25px;
+	float: left;
+}
+.carousel__img{
+	max-width: 200px;
+}
+.left__arrow, .right__arrow{
+	float: left;
+	display: block;
+  border: 1px solid grey;
+  background-color: lightgrey;
+  padding: 5px;
+  margin-top: 50px;
+}
+.left__arrow:hover, .right__arrow:hover{
+	cursor: pointer;
+	background: #ddd;
+}
+.left__arrow{
+	margin-right: 25px;
+}
+.right__arrow{
+	margin-left: 25px;
+}
+/*.left__arrow{
+	position: absolute;
+	top: 86px;
+	left: 254px;
+	background: #06a5d5;
+	border: 40px solid #none;
+}
+.left__arrow:after, .left__arrow:before {
+	right: 100%;
+	top: 50%;
+	border: solid transparent;
+	content: " ";
+	height: 0;
+	width: 0;
+	position: absolute;
+	pointer-events: none;
+}
+
+.left__arrow:after {
+	border-color: rgba(6, 165, 213, 0);
+	border-right-color: #06a5d5;
+	border-width: 30px;
+	margin-top: -30px;
+}
+.left__arrow:before {
+	border-color: rgba(0, 0, 0, 0);
+	border-right-color: #none;
+	border-width: 87px;
+	margin-top: -87px;
+}
+.right__arrow {
+	position: absolute;
+	top: 86px;
+	left: 920px;
+	background: #06a5d5;
+	border: 40px solid #none;
+}
+.right__arrow:after, .right__arrow:before {
+	left: 100%;
+	top: 50%;
+	border: solid transparent;
+	content: " ";
+	height: 0;
+	width: 0;
+	position: absolute;
+	pointer-events: none;
+}
+
+.right__arrow:after {
+	border-color: rgba(6, 165, 213, 0);
+	border-left-color: #06a5d5;
+	border-width: 30px;
+	margin-top: -30px;
+}
+.right__arrow:before {
+	border-color: rgba(0, 0, 0, 0);
+	border-left-color: #none;
+	border-width: 87px;
+	margin-top: -87px;
+}*/
+.template{
+	width: 960px;
+	margin: 0 auto;
+	background: #ddd;
+}
+.title{
+	margin-top: 50px;
+	text-align: center;
+}
+.reason {
+	text-align: center;
+	width: 400px;
+	margin: 20px auto;
+	border-bottom: 1px solid #000;
+}
+.contact{
+	margin-top: 30px;
+	margin-left: 13px;
+}
+.link{
+	display: block;
+	text-decoration: none;
+	color: #000;
+	margin-top: 5px;
+	margin-left: 13px;
+}
+.container{
+	width: 960px;
+	margin: 0 auto;
+}
+.container ul {
+	
+	list-style-type: circle;
+	margin-left: 30px;
+
+}
+
+
+
+
+
+
+

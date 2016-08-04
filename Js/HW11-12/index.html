@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Caorusel</title>
+	<link rel="stylesheet" href="css/style.css">
+	<script src="https://code.jquery.com/jquery-3.1.0.js" integrity="sha256-slogkvB1K3VOkzAI8QITxV3VzpOnkeNVsKvtkYLMjfk=" crossorigin="anonymous"></script>
+	<script src="./js/slider.js"></script>
+	<script src="js/tmpl.js"></script>
+	<script src="./js/main.js"></script>
+</head>
+<body>
+
+<div class="wrapper clearfix">
+	<div class="float clearfix">
+		<div class="left__arrow"><span>Left</span></div>
+		<div class="carousel-wrap">
+			<ul class="carousel">
+				<li class="carousel__item"><img src="img/1.jpg" alt="" class="carousel__img"><p>Description 1</p></li>
+				<li class="carousel__item"><img src="img/2.jpg" alt="" class="carousel__img"><p>Description 2</p></li>
+				<li class="carousel__item"><img src="img/3.jpg" alt="" class="carousel__img"><p>Description 3</p></li>
+				<li class="carousel__item"><img src="img/4.jpg" alt="" class="carousel__img"><p>Description 4</p></li>
+				<li class="carousel__item"><img src="img/5.jpg" alt="" class="carousel__img"><p>Description 5</p></li>
+				<li class="carousel__item"><img src="img/6.jpg" alt="" class="carousel__img"><p>Description 6</p></li>
+			</ul>
+		</div>
+		<div class="right__arrow"><span>Right</span></div>
+	</div>
+
+
+
+	<section class="template">
+			
+				<script type="html" id="temp">
+					<h1 class="title"><%= name %></h1>
+					<div class="container">
+						<p class="reason">Занялся фронтендом потому что:</p>
+						<ul>
+							<% for (var i = 0; i < reason.length; i++) {%>
+							<li><%= reason[i] %></li>
+							<% } %>
+						</ul>
+						<p class="contact"><%= contact %></p>
+						<a class="link" href="<%= facebook %>">Facebook.com</a>	
+					</div>
+				</script>	
+		
+	</section>
+		
+	
+</div>
+
+	
+	
+</body>
+</html>
