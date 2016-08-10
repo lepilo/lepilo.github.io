@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Programmer test</title>
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+	<link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+	<script type="html/template" id="temp">
+		<div class="wrapper">
+			<h1 class="title">Тест по программированию</h1>
+			<form>
+			<ol>
+				<% for (var i = 0; i < data.length; i++) { %>
+					<li><%= data[i].question%>
+						<ul>
+							<% for (var j = 0; j < data[i].answers.length; j++) { %>
+							<li>
+							<input type="radio" id="<%= data[i].id[j] %>" name="<%= data[i].name %>">
+							<label for="<%= data[i].id[j] %>"> <%= data[i].answers[j]%></label>
+							</li>
+							<% } %>
+						</ul>
+					</li>
+				<% } %>	
+			</ol>
+			<div id="btn">
+				<button type="button" id="checkBtn" class="btn btn-primary btn-lg btn-block" data-toggle="modal" data-target="#myModal">Проверить мои результаты</button>
+			</div>
+			</form>
+		</div>
+
+<div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+  <div class="modal-dialog" role="document">
+    <div class="modal-content">
+      <div class="modal-header">Результат прохождения теста
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+        <h4 class="modal-title" id="myModalLabel">Modal title</h4>
+      </div>
+      <div class="modal-body" id="resultModal">
+        ...
+      </div>
+      <div class="modal-footer">
+        <button type="button" id="retryBtn"  class="btn btn-default" data-dismiss="modal">Close</button>
+        <button type="button" class="btn btn-primary">Save changes</button>
+      </div>
+    </div>
+  </div>
+</div>
+	</script>
+	<script src="https://code.jquery.com/jquery-2.2.4.min.js" integrity="sha256-BbhdlvQf/xTY9gja0Dq3HiwQF8LaCRTXxZKRutelT44=" crossorigin="anonymous">
+	</script>
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+
+	<script src="js/template.js"></script>
+	<script src="js/main.js"></script>
+</body>
+</html>
