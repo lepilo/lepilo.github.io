@@ -1,40 +1,87 @@
-function pow(a, b){
-	var result = a;
+// function pow(a, b){
 
-	for(var i = 1; i < b; i++){
-		result *= a;
-	}
-		return result;
-}
+// 	var result;
 
-var a = prompt('Enter the number');
-var b = prompt('Enter the exponent');
+// 	if (a === '' || b === '') {
+// 		result = 'You can not enter empty string!';
+// 	} else if (b[0] === '-') {
+// 		result = 'You can not use negative exponent!';
+// 	} else { 
+// 		result = Math.pow(a, b);
+// 	} 
+	
+// 	alert('Result is: ' + result);
+// }
 
-if(b <= 1){
-	alert('Exponent ' + b + 'not supported, enter integer power greater than 1');
-}else{
-	alert(pow(a, b));
-}
+// var a = prompt('Enter the number');
+// var b;
+
+// if (a === null) {
+// 	alert('Cancelled');
+// } else {
+//  b = prompt('Enter the exponent');
+//  pow(a, b);
+// };
 
 var names = [];
+var listIsFilled = false;
 
 for(var i = 0; i < 5; i++) {
-	names.push(prompt('Enter name'));
+	var enter = prompt('Enter name');
+	names.push(enter);
+	if (enter === null) {
+		alert('Cancelled');
+		listIsFilled = false;
+		break;
+	} else {
+		listIsFilled = true;
+	}
 }
 
-var userName = prompt('Enter user name');
+if (listIsFilled) {
+	var userName = prompt('Enter user name');
+	var matchesFound = false;
+	var emptyString = false;
 
-for(var i = 0; i < names.length; i++){
-	var namesIn = names[i];
-	if(namesIn == userName){
-		alert('Congratulations ' + userName + ' you entered');
-		break
-	}
-	if(namesIn == false){
-		alert('Error');
+	if(userName == ''){
+		alert('You must enter name')
+	} else if (userName == null){
+
+	} else {
+		
+	for(var i = 0; i < names.length; i++){
+
+		if (names[i] == userName){
+			matchesFound = true;
+			break;
+		} else if (userName == null) {
+			matchesFound = null;
+			break;
+		} else if (names[i] == ''){
+			emptyString = true;
+		}else {
+			matchesFound = false
+		};
 	}
 	
-}
+
+	if (!emptyString) {
+	
+		if(matchesFound){
+				alert('Congratulations ' + userName + ' you entered');		
+		} else if (matchesFound == null) {
+				alert('You not entered user name');		
+		} else {
+				alert('You entered wrong name');
+		}
+		
+	} else {
+		alert('You entered empty string')
+	}
+
+	}
+} 
+
 
 
 

@@ -85,6 +85,12 @@ console.log(userAnswer);
 			score = 0;
 		}
 	});
+	$('#myModal').click(function() {
+		modal.html('');
+		$('input:checked').removeAttr('checked');
+		head.html('');
+		score = 0;
+	});
 
 });
 
