@@ -1,0 +1,264 @@
+@font-face {
+    font-family: 'Open Sans Semibold';
+    src: url('../fonts/opensans-semibold-webfont.woff2') format('woff2'),
+         url('../fonts/opensans-semibold-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'Open Sans Regular';
+    src: url('../fonts/opensans-regular-webfont.woff2') format('woff2'),
+         url('../fonts/opensans-regular-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+body{
+	font: 16px "Open Sans", arial, sans-serif;
+}
+.box{
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+}
+.container{
+	width: 1140px;
+	margin: 0 auto;
+	position: relative;
+}
+.left{
+	float: left;
+}
+.right{
+	float: right;
+}
+.left-t{
+	text-align: left;
+}
+.right-t{
+	text-align: right;
+}
+.center-t{
+	text-align: center;
+}
+.clearfix:after{
+	content: '';
+	display: block;
+	clear: both;
+}
+.title{
+	font: 50px "Open Sans Semibold", arial, sans-serif;
+	color: #626262;
+}
+.subtitle{
+	font: 15px "Open Sans Regular", arial, sans-serif;
+	color: #7b7b7b;
+	text-align: center;
+	line-height: 25px;
+}
+.red{
+	color: #fc6744;
+}
+/*TOP*/
+header{
+	background: #f5f5f5;
+	padding-top: 80px;
+	height: 840px;
+}
+/*header .container{
+	padding-top: 0px;
+}*/
+header .title{
+	margin-bottom: 20px;
+}
+.logo{
+	width: 147px;
+	height: 57px;
+	border: 3px solid #706b73;
+	letter-spacing: 1px;
+}
+.logo__text{
+	font: 37px "Open Sans Semibold";
+	color: #494949;
+}
+.menu{
+	display: none;
+}
+.header__text{
+	width: 750px;
+	margin: 0 auto;
+	margin-top: 130px;
+}
+/*MESSAGE*/
+.message{
+	width: 372px;
+	margin-top: 56px;
+	position: absolute;
+	bottom: -494px;
+	background: #fff;
+	border-radius: 2px;
+	padding: 20px 29px;
+	-webkit-box-shadow: 0px 0px 13px -4px rgba(0,0,0,0.75);
+	-moz-box-shadow: 0px 0px 13px -4px rgba(0,0,0,0.75);
+	box-shadow: 0px 0px 13px -4px rgba(0,0,0,0.75);
+}
+.message__title{
+	margin-bottom: 60px;
+	font: 20px "Open Sans Semibold", arial, sans-serif;
+}
+input{
+	display: block;
+	width: 300px;
+	margin: 40px 0;
+	border: none;
+	border-bottom: 1px solid #000;
+}
+textarea{
+	width: 300px;
+	margin-left: -9px;
+	padding-bottom: 47px;
+	border: none;
+	border-bottom: 1px solid #000;
+}
+.message__button{
+	margin-top: 16px;
+	width: 236px;
+	height: 55px;
+	background: #fc6744;
+	border-radius: 26px;
+	border: none;
+	padding: 10px;
+	color: #fff;
+	font: 16px "Open Sans Regular", arial, sans-serif;
+}
+/*CONTENT*/
+.process{
+	background: #fff;
+	padding-top: 130px;
+	padding-bottom: 183px;
+}
+/*.process .title{
+	margin-bottom: 0px;
+}*/
+.know{
+	margin-top: 105px;
+}
+.know__item{
+	width: 263px;
+	margin-right: 28px;
+	padding-top: 116px;
+	position: relative;
+	background: #4eb2f7;
+}
+.know__item:last-child{
+	margin-right: 0;
+}
+.know__title:before{
+	content: '';
+	background: url(../img/know_icons.png);
+	display: block;
+	width: 55px;
+	height: 52px;
+	position: absolute;
+	top: 52px;
+	left: 107px;
+}
+.know__item--second .know__title:before{
+	background-position: 174px 0;
+}
+.know__item--second{
+	background: #c049f8;
+}
+.know__item--third .know__title:before{
+	background-position: 340px 0;
+}
+.know__item--third{
+	background: #817eff;
+}
+.know__item--four .know__title:before{
+	background-position: 505px 0;
+}
+.know__item--four{
+	background: #f74770;
+}
+.know__title{
+	font: 20px "Open Sans Semibold", arial, sans-serif;
+	color: #fff;
+}
+.know__text{
+	padding-top: 14px;
+	line-height: 21px;
+	color: #fff;
+	font: "Open Sans Regular";
+	padding-bottom: 63px;
+}
+.know__button{
+	width: 230px;
+	height: 55px;
+	position: absolute;
+	left: 16px;
+	bottom: -26px;
+	border-radius: 25px;
+	border: none;
+	background: #fff;
+	color: #000;
+	-webkit-box-shadow: 0px 0px 13px -4px rgba(0,0,0,0.75);
+	-moz-box-shadow: 0px 0px 13px -4px rgba(0,0,0,0.75);
+	box-shadow: 0px 0px 13px -4px rgba(0,0,0,0.75);
+}
+/*WORKS*/
+.works{
+	background: #fbfbfb;
+	padding-top: 114px;
+	padding-bottom: 150px;
+}
+.grid{
+	margin-top: 111px;
+}
+.grid__items{
+	width: 358px;
+	height: 358px;
+	background: #ff5c36;
+	border: 1px solid #000;
+	margin-right: 30px;
+	margin-bottom: 22px;
+}
+.grid__items:nth-child(3n){
+	margin-right: 0;
+}
+.service{
+	padding-top: 128px;
+}
+.service__left{
+	width: 518px;
+	margin-top: 125px;
+	margin-left: 230px;
+}
+.service__title{
+	margin-bottom: 25px;
+	font: 30px "Open Sans Regular", arial, sans-serif;
+	color: #404040;
+}
+.service__title:after{
+	content: '';
+	display: block;
+	height: 3px;
+	width: 57px;
+	border-bottom: 2px solid #ff5c36;
+}
+.service__text{
+	margin-bottom: 20px;
+	line-height: 24px;
+}
+.service__button{
+	width: 241px;
+	height: 55px;
+	border-radius: 30px;
+	border: none;
+	background: #fff;
+	-webkit-box-shadow: 0px 0px 13px -4px rgba(0,0,0,0.75);
+	-moz-box-shadow: 0px 0px 13px -4px rgba(0,0,0,0.75);
+	box-shadow: 0px 0px 13px -4px rgba(0,0,0,0.75);
+}
+
+
+

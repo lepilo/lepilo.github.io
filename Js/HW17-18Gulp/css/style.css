@@ -1,0 +1,46 @@
+*{
+	padding: 0;
+	margin: 0;
+	list-style-type: none;
+}
+body{
+	background: #eee;
+}
+.wrapper{
+	width: 960px;
+	margin: 100px auto;
+	text-align: center;
+}
+#search{
+	width: 400px;
+	margin: 20px 0;
+	padding: 10px;
+}
+figcaption{
+	font-size: 40px;
+}
+.blue{
+	color: blue;
+}
+.red{
+	color: red;
+}
+.yellow{
+	color: yellow;
+}
+.green{
+	color: green;
+}
+#button{
+
+}
+
+/*.test{
+	width: calc(100% - 50px);
+	height: 400px;
+	background: #000;
+}
+.test*/
+
+
+
